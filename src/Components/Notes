@@ -1,0 +1,19 @@
+
+
+React installation 
+
+npm create vite@latest 
+
+project name- my-project 
+
+again project name 
+
+select - React 
+
+select - javascript 
+
+cd portfolio 
+
+npm install 
+
+npm run dev 
