@@ -1,0 +1,111 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: gray;
+  padding: 20px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+
+  color: blue;
+  
+}
+
+.input-area {
+  display: flex;
+  gap: 5px;
+
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+  background:green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+li div {
+
+  display: flex;
+  gap: 10px;
+  
+}
+li.done span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+span {
+  cursor: pointer;
+}
+
+
+
+li div button {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+
+li div button:first-child {
+  background-color:orange;
+}
+
+
+li div button:last-child {
+  background-color: #e74c3c;
+}
+
+
+li div button:hover {
+  opacity: 0.85;
+}
+
+
+
+
+
+
+
+
+
